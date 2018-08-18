@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: 98c8cdcbddfbbae43b6ebe96d4a76ec9
+timeCreated: 1529013615
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BezierCurve.001
+    100002: BezierCurve.002
+    100004: BezierCurve.003
+    100006: BezierCurve.004
+    100008: BezierCurve.005
+    100010: BezierCurve.006
+    100012: BezierCurve.007
+    100014: BezierCurve.008
+    100016: BezierCurve.009
+    100018: BezierCurve.010
+    100020: BezierCurve.011
+    100022: BezierCurve.012
+    100024: BezierCurve.013
+    100026: BezierCurve.014
+    100028: BezierCurve.015
+    100030: BezierCurve.016
+    100032: BezierCurve.017
+    100034: BezierCurve.018
+    100036: BezierCurve.019
+    100038: BezierCurve.020
+    100040: BezierCurve.021
+    100042: BezierCurve.022
+    100044: BezierCurve.023
+    100046: BezierCurve.024
+    100048: BezierCurve.025
+    100050: BezierCurve.026
+    100052: BezierCurve.027
+    100054: BezierCurve.028
+    100056: Camera
+    100058: Cylinder
+    100060: Cylinder.001
+    100062: Cylinder.002
+    100064: Cylinder.003
+    100066: Cylinder.004
+    100068: Cylinder.005
+    100070: Cylinder.006
+    100072: Cylinder.007
+    100074: Cylinder.008
+    100076: Lamp
+    100078: //RootNode
+    100080: Plane.001
+    100082: Plane.007
+    100084: Roundcube
+    100086: Roundcube.001
+    100088: Roundcube.002
+    100090: Roundcube.003
+    100092: Sphere
+    100094: Sphere.001
+    100096: Sphere.002
+    100098: Sphere.003
+    100100: Torus
+    100102: Torus.001
+    100104: Torus.002
+    100106: Torus.003
+    100108: Torus.004
+    400000: BezierCurve.001
+    400002: BezierCurve.002
+    400004: BezierCurve.003
+    400006: BezierCurve.004
+    400008: BezierCurve.005
+    400010: BezierCurve.006
+    400012: BezierCurve.007
+    400014: BezierCurve.008
+    400016: BezierCurve.009
+    400018: BezierCurve.010
+    400020: BezierCurve.011
+    400022: BezierCurve.012
+    400024: BezierCurve.013
+    400026: BezierCurve.014
+    400028: BezierCurve.015
+    400030: BezierCurve.016
+    400032: BezierCurve.017
+    400034: BezierCurve.018
+    400036: BezierCurve.019
+    400038: BezierCurve.020
+    400040: BezierCurve.021
+    400042: BezierCurve.022
+    400044: BezierCurve.023
+    400046: BezierCurve.024
+    400048: BezierCurve.025
+    400050: BezierCurve.026
+    400052: BezierCurve.027
+    400054: BezierCurve.028
+    400056: Camera
+    400058: Cylinder
+    400060: Cylinder.001
+    400062: Cylinder.002
+    400064: Cylinder.003
+    400066: Cylinder.004
+    400068: Cylinder.005
+    400070: Cylinder.006
+    400072: Cylinder.007
+    400074: Cylinder.008
+    400076: Lamp
+    400078: //RootNode
+    400080: Plane.001
+    400082: Plane.007
+    400084: Roundcube
+    400086: Roundcube.001
+    400088: Roundcube.002
+    400090: Roundcube.003
+    400092: Sphere
+    400094: Sphere.001
+    400096: Sphere.002
+    400098: Sphere.003
+    400100: Torus
+    400102: Torus.001
+    400104: Torus.002
+    400106: Torus.003
+    400108: Torus.004
+    2000000: Camera
+    2100000: Material.009
+    2100002: Material.005
+    2100004: Material.008
+    2100006: Material
+    2100008: Material.004
+    2100010: Material.001
+    2100012: Material.007
+    2100014: Material.006
+    2100016: No Name
+    2100018: Material.003
+    2100020: Material.002
+    2300000: BezierCurve.001
+    2300002: BezierCurve.002
+    2300004: BezierCurve.003
+    2300006: BezierCurve.004
+    2300008: BezierCurve.005
+    2300010: BezierCurve.006
+    2300012: BezierCurve.007
+    2300014: BezierCurve.008
+    2300016: BezierCurve.009
+    2300018: BezierCurve.010
+    2300020: BezierCurve.011
+    2300022: BezierCurve.012
+    2300024: BezierCurve.013
+    2300026: BezierCurve.014
+    2300028: BezierCurve.015
+    2300030: BezierCurve.016
+    2300032: BezierCurve.017
+    2300034: BezierCurve.018
+    2300036: BezierCurve.019
+    2300038: BezierCurve.020
+    2300040: BezierCurve.021
+    2300042: BezierCurve.022
+    2300044: BezierCurve.023
+    2300046: BezierCurve.024
+    2300048: BezierCurve.025
+    2300050: BezierCurve.026
+    2300052: BezierCurve.027
+    2300054: BezierCurve.028
+    2300056: Cylinder
+    2300058: Cylinder.001
+    2300060: Cylinder.002
+    2300062: Cylinder.003
+    2300064: Cylinder.004
+    2300066: Cylinder.005
+    2300068: Cylinder.006
+    2300070: Cylinder.007
+    2300072: Cylinder.008
+    2300074: Plane.001
+    2300076: Plane.007
+    2300078: Roundcube
+    2300080: Roundcube.001
+    2300082: Roundcube.002
+    2300084: Roundcube.003
+    2300086: Sphere
+    2300088: Sphere.001
+    2300090: Sphere.002
+    2300092: Sphere.003
+    2300094: Torus
+    2300096: Torus.001
+    2300098: Torus.002
+    2300100: Torus.003
+    2300102: Torus.004
+    3300000: BezierCurve.001
+    3300002: BezierCurve.002
+    3300004: BezierCurve.003
+    3300006: BezierCurve.004
+    3300008: BezierCurve.005
+    3300010: BezierCurve.006
+    3300012: BezierCurve.007
+    3300014: BezierCurve.008
+    3300016: BezierCurve.009
+    3300018: BezierCurve.010
+    3300020: BezierCurve.011
+    3300022: BezierCurve.012
+    3300024: BezierCurve.013
+    3300026: BezierCurve.014
+    3300028: BezierCurve.015
+    3300030: BezierCurve.016
+    3300032: BezierCurve.017
+    3300034: BezierCurve.018
+    3300036: BezierCurve.019
+    3300038: BezierCurve.020
+    3300040: BezierCurve.021
+    3300042: BezierCurve.022
+    3300044: BezierCurve.023
+    3300046: BezierCurve.024
+    3300048: BezierCurve.025
+    3300050: BezierCurve.026
+    3300052: BezierCurve.027
+    3300054: BezierCurve.028
+    3300056: Cylinder
+    3300058: Cylinder.001
+    3300060: Cylinder.002
+    3300062: Cylinder.003
+    3300064: Cylinder.004
+    3300066: Cylinder.005
+    3300068: Cylinder.006
+    3300070: Cylinder.007
+    3300072: Cylinder.008
+    3300074: Plane.001
+    3300076: Plane.007
+    3300078: Roundcube
+    3300080: Roundcube.001
+    3300082: Roundcube.002
+    3300084: Roundcube.003
+    3300086: Sphere
+    3300088: Sphere.001
+    3300090: Sphere.002
+    3300092: Sphere.003
+    3300094: Torus
+    3300096: Torus.001
+    3300098: Torus.002
+    3300100: Torus.003
+    3300102: Torus.004
+    4300000: Plane.007
+    4300002: Torus.004
+    4300004: Torus.002
+    4300006: Plane.001
+    4300008: Cylinder.008
+    4300010: Cylinder.007
+    4300012: Roundcube.003
+    4300014: Roundcube.002
+    4300016: Cylinder.006
+    4300018: Cylinder.005
+    4300020: Cylinder.004
+    4300022: BezierCurve.028
+    4300024: BezierCurve.027
+    4300026: BezierCurve.026
+    4300028: BezierCurve.025
+    4300030: BezierCurve.024
+    4300032: BezierCurve.023
+    4300034: BezierCurve.022
+    4300036: BezierCurve.021
+    4300038: BezierCurve.020
+    4300040: BezierCurve.019
+    4300042: BezierCurve.018
+    4300044: BezierCurve.017
+    4300046: BezierCurve.016
+    4300048: BezierCurve.004
+    4300050: BezierCurve.002
+    4300052: BezierCurve.015
+    4300054: BezierCurve.014
+    4300056: BezierCurve.013
+    4300058: BezierCurve.012
+    4300060: BezierCurve.011
+    4300062: BezierCurve.010
+    4300064: BezierCurve.009
+    4300066: BezierCurve.008
+    4300068: BezierCurve.007
+    4300070: BezierCurve.006
+    4300072: BezierCurve.005
+    4300074: BezierCurve.003
+    4300076: Sphere.003
+    4300078: Sphere.002
+    4300080: Sphere.001
+    4300082: Sphere
+    4300084: BezierCurve.001
+    4300086: Torus.001
+    4300088: Torus.003
+    4300090: Roundcube.001
+    4300092: Cylinder.003
+    4300094: Cylinder.002
+    4300096: Cylinder.001
+    4300098: Torus
+    4300100: Cylinder
+    4300102: Roundcube
+    9500000: //RootNode
+    10800000: Lamp
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: minion-model(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BezierCurve.001
+      parentName: minion-model(Clone)
+      position: {x: 0.1379352, y: -0.11933645, z: 0.5048619}
+      rotation: {x: 0.24976216, y: 0.60701907, z: -0.4940709, w: 0.57012343}
+      scale: {x: 69.16692, y: 68.54925, z: 55.982574}
+    - name: BezierCurve.002
+      parentName: minion-model(Clone)
+      position: {x: -0.32225293, y: 0.576448, z: 0.15761694}
+      rotation: {x: 0.8219369, y: -0.45087326, z: 0.10668371, w: -0.33128783}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.003
+      parentName: minion-model(Clone)
+      position: {x: 0.2933296, y: 0.6660768, z: 0.03255327}
+      rotation: {x: -0.13828307, y: 0.13968526, z: 0.88571554, w: -0.42056367}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.004
+      parentName: minion-model(Clone)
+      position: {x: -0.1951028, y: 0.66487646, z: 0.21320842}
+      rotation: {x: 0.8219369, y: -0.45087326, z: 0.10668371, w: -0.33128783}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.005
+      parentName: minion-model(Clone)
+      position: {x: 0.158259, y: 0.6747746, z: 0.044796143}
+      rotation: {x: -0.13828307, y: 0.13968526, z: 0.88571554, w: -0.42056367}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.006
+      parentName: minion-model(Clone)
+      position: {x: 0.2172418, y: 0.6102738, z: 0.26757526}
+      rotation: {x: -0.13828307, y: 0.13968526, z: 0.88571554, w: -0.42056367}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.007
+      parentName: minion-model(Clone)
+      position: {x: 0.22423509, y: 0.67438215, z: 0.18302321}
+      rotation: {x: -0.13828307, y: 0.13968526, z: 0.88571554, w: -0.42056367}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.008
+      parentName: minion-model(Clone)
+      position: {x: 0.107729584, y: 0.7123629, z: 0.14918555}
+      rotation: {x: -0.13828307, y: 0.13968526, z: 0.88571554, w: -0.42056367}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.009
+      parentName: minion-model(Clone)
+      position: {x: 0.031870723, y: 0.6425026, z: 0.18761168}
+      rotation: {x: -0.13828307, y: 0.13968526, z: 0.88571554, w: -0.42056367}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.010
+      parentName: minion-model(Clone)
+      position: {x: 0.13177253, y: 0.6537114, z: 0.24172072}
+      rotation: {x: -0.13828307, y: 0.13968526, z: 0.88571554, w: -0.42056367}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.011
+      parentName: minion-model(Clone)
+      position: {x: 0.35192886, y: 0.5710748, z: 0.083624706}
+      rotation: {x: -0.13828307, y: 0.13968526, z: 0.88571554, w: -0.42056367}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.012
+      parentName: minion-model(Clone)
+      position: {x: 0.31979656, y: 0.63634706, z: 0.16258393}
+      rotation: {x: -0.13828307, y: 0.13968526, z: 0.88571554, w: -0.42056367}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.013
+      parentName: minion-model(Clone)
+      position: {x: 0.08022921, y: 0.70119786, z: -0.022148399}
+      rotation: {x: -0.13828307, y: 0.13968526, z: 0.88571554, w: -0.42056367}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.014
+      parentName: minion-model(Clone)
+      position: {x: 0.2132166, y: 0.7060288, z: -0.11061479}
+      rotation: {x: -0.13828307, y: 0.13968526, z: 0.88571554, w: -0.42056367}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.015
+      parentName: minion-model(Clone)
+      position: {x: 0.33920676, y: 0.6001982, z: -0.10873748}
+      rotation: {x: -0.13828307, y: 0.13968526, z: 0.88571554, w: -0.42056367}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.016
+      parentName: minion-model(Clone)
+      position: {x: -0.052539136, y: 0.6852404, z: 0.14395376}
+      rotation: {x: 0.8219369, y: -0.45087326, z: 0.10668371, w: -0.33128783}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.017
+      parentName: minion-model(Clone)
+      position: {x: -0.26940304, y: 0.71191114, z: -0.075096264}
+      rotation: {x: 0.8219369, y: -0.45087326, z: 0.10668371, w: -0.33128783}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.018
+      parentName: minion-model(Clone)
+      position: {x: -0.3122775, y: 0.6237779, z: -0.031257655}
+      rotation: {x: 0.8219369, y: -0.45087326, z: 0.10668371, w: -0.33128783}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.019
+      parentName: minion-model(Clone)
+      position: {x: -0.07285607, y: 0.7454979, z: -0.121554926}
+      rotation: {x: 0.8219369, y: -0.45087326, z: 0.10668371, w: -0.33128783}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.020
+      parentName: minion-model(Clone)
+      position: {x: 0.019502401, y: 0.707845, z: -0.06600344}
+      rotation: {x: 0.8219369, y: -0.45087326, z: 0.10668371, w: -0.33128783}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.021
+      parentName: minion-model(Clone)
+      position: {x: -0.058879852, y: 0.7626919, z: -0.011601045}
+      rotation: {x: 0.8219369, y: -0.45087326, z: 0.10668371, w: -0.33128783}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.022
+      parentName: minion-model(Clone)
+      position: {x: -0.17125405, y: 0.7483736, z: -0.06929053}
+      rotation: {x: 0.8219369, y: -0.45087326, z: 0.10668371, w: -0.33128783}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.023
+      parentName: minion-model(Clone)
+      position: {x: -0.15551452, y: 0.7210261, z: -0.17083961}
+      rotation: {x: 0.8219369, y: -0.45087326, z: 0.10668371, w: -0.33128783}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.024
+      parentName: minion-model(Clone)
+      position: {x: -0.1224727, y: 0.6916227, z: 0.06434865}
+      rotation: {x: 0.8219369, y: -0.45087326, z: 0.10668371, w: -0.33128783}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.025
+      parentName: minion-model(Clone)
+      position: {x: -0.25819203, y: 0.68798155, z: 0.058297977}
+      rotation: {x: 0.8219369, y: -0.45087326, z: 0.10668371, w: -0.33128783}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.026
+      parentName: minion-model(Clone)
+      position: {x: 0.0195264, y: 0.6679623, z: 0.15089801}
+      rotation: {x: 0.8219369, y: -0.45087326, z: 0.10668371, w: -0.33128783}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.027
+      parentName: minion-model(Clone)
+      position: {x: 0.019145016, y: 0.745526, z: 0.03196936}
+      rotation: {x: 0.6866246, y: -0.54854065, z: 0.31541124, w: -0.35800236}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: BezierCurve.028
+      parentName: minion-model(Clone)
+      position: {x: 0.08026399, y: 0.70727193, z: -0.10322963}
+      rotation: {x: 0.10487349, y: -0.0758164, z: -0.8330003, w: 0.53792566}
+      scale: {x: -18.874836, y: -18.874836, z: -18.874836}
+    - name: Camera
+      parentName: minion-model(Clone)
+      position: {x: -0.05350047, y: 0.42921492, z: 6.8095865}
+      rotation: {x: -0.0143820625, y: 0.034398228, z: -0.004441464, w: 0.9992949}
+      scale: {x: 100, y: 100, z: 100.00001}
+    - name: Cylinder
+      parentName: minion-model(Clone)
+      position: {x: -0.21312933, y: -0.07816794, z: 0.016816812}
+      rotation: {x: -0.4151511, y: -0.5270516, z: 0.6697476, w: 0.31828338}
+      scale: {x: 4.143935, y: 4.727342, z: 64.022285}
+    - name: Cylinder.001
+      parentName: minion-model(Clone)
+      position: {x: -0.40133375, y: 0.3300783, z: 0.28674287}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: -1.225234, y: -1.1197069, z: -4.8196716}
+    - name: Cylinder.002
+      parentName: minion-model(Clone)
+      position: {x: 0.0019750446, y: 0.32573003, z: -0.012335307}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 50.428368, y: 47.45236, z: 3.7952104}
+    - name: Cylinder.003
+      parentName: minion-model(Clone)
+      position: {x: 0.38476536, y: 0.3229573, z: 0.33742046}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: -1.225234, y: -1.1197069, z: -4.8196716}
+    - name: Cylinder.004
+      parentName: minion-model(Clone)
+      position: {x: 0.21946174, y: -0.035696596, z: 0.0681606}
+      rotation: {x: -0.33046666, y: 0.6656248, z: -0.57945216, w: 0.3346201}
+      scale: {x: 4.1439357, y: 4.727342, z: 64.022285}
+    - name: Cylinder.005
+      parentName: minion-model(Clone)
+      position: {x: -0.11891189, y: -0.8023906, z: -0.00070241553}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: -12.461803, y: -12.461803, z: -12.461803}
+    - name: Cylinder.006
+      parentName: minion-model(Clone)
+      position: {x: 0.1469823, y: -0.80695987, z: 0.0041056955}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: -12.461803, y: -12.461803, z: -12.461803}
+    - name: Cylinder.007
+      parentName: minion-model(Clone)
+      position: {x: -0.78759205, y: -0.3689336, z: 0.08619276}
+      rotation: {x: -0.5025061, y: 0.5815457, z: -0.14825161, w: 0.6223454}
+      scale: {x: 7.802343, y: 7.802344, z: 7.8023443}
+    - name: Cylinder.008
+      parentName: minion-model(Clone)
+      position: {x: 0.73795784, y: -0.36961192, z: 0.023858363}
+      rotation: {x: -0.2696579, y: 0.7113724, z: 0.4418549, w: -0.47539273}
+      scale: {x: 7.8023434, y: 7.8023443, z: 7.802345}
+    - name: Lamp
+      parentName: minion-model(Clone)
+      position: {x: -2.2117088, y: 2.1885703, z: 5.420245}
+      rotation: {x: 0.28416622, y: 0.7269424, z: 0.3420339, w: -0.52327543}
+      scale: {x: 100.00001, y: 99.99999, z: 100}
+    - name: Plane.001
+      parentName: minion-model(Clone)
+      position: {x: -0.051554065, y: -0.061315406, z: 0.41639942}
+      rotation: {x: 0.98111004, y: -0.0032073234, z: 0.06175598, w: -0.18330017}
+      scale: {x: 22.032656, y: 5.78984, z: 10.921437}
+    - name: Plane.007
+      parentName: minion-model(Clone)
+      position: {x: 0.11426059, y: -0.018311203, z: 0.41734144}
+      rotation: {x: -0.025427908, y: 0.9982424, z: -0.022028383, w: -0.04878923}
+      scale: {x: 2.030951, y: 1.0209306, z: 2.0813131}
+    - name: Roundcube
+      parentName: minion-model(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 93.19238, z: 47.298683}
+    - name: Roundcube.001
+      parentName: minion-model(Clone)
+      position: {x: 0.0061832163, y: 0.004205508, z: -1.3677411}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 93.19238, z: 57.21746}
+    - name: Roundcube.002
+      parentName: minion-model(Clone)
+      position: {x: -0.15534075, y: -1.0192155, z: 0.025741607}
+      rotation: {x: -0.67779416, y: -0.1531219, z: -0.18449184, w: 0.6950623}
+      scale: {x: 22.833752, y: 47.119038, z: 4.3491125}
+    - name: Roundcube.003
+      parentName: minion-model(Clone)
+      position: {x: 0.17473295, y: -1.0256909, z: 0.016602032}
+      rotation: {x: -0.6882486, y: 0.1899686, z: 0.22445069, w: 0.66321015}
+      scale: {x: 22.833752, y: 47.119034, z: 4.349113}
+    - name: Sphere
+      parentName: minion-model(Clone)
+      position: {x: 0.15974005, y: 0.32476586, z: 0.44732654}
+      rotation: {x: -0.70946527, y: 0.046087626, z: 0.05493023, w: 0.7010832}
+      scale: {x: 16.659906, y: 4.1014624, z: 16.659906}
+    - name: Sphere.001
+      parentName: minion-model(Clone)
+      position: {x: -0.15060027, y: 0.33155817, z: 0.44861647}
+      rotation: {x: -0.726573, y: -0.01726007, z: 0.005748551, w: 0.6868484}
+      scale: {x: 17.783058, y: 4.3779693, z: 17.783062}
+    - name: Sphere.002
+      parentName: minion-model(Clone)
+      position: {x: -0.24027117, y: 0.305558, z: 0.48444763}
+      rotation: {x: 0.07646713, y: 0.71266454, z: -0.69719005, w: 0.013714669}
+      scale: {x: -4.634166, y: -0.63456625, z: -4.6341653}
+    - name: Sphere.003
+      parentName: minion-model(Clone)
+      position: {x: 0.11647412, y: 0.3008681, z: 0.49027205}
+      rotation: {x: 0.024472004, y: 0.713022, z: -0.699601, w: -0.039486688}
+      scale: {x: -4.634166, y: -0.63456625, z: -4.634166}
+    - name: Torus
+      parentName: minion-model(Clone)
+      position: {x: 0.16753146, y: 0.323215, z: 0.48019177}
+      rotation: {x: 0.01027928, y: 0.0096698655, z: 0.19659151, w: 0.98038393}
+      scale: {x: -16.743906, y: -16.743906, z: -16.743908}
+    - name: Torus.001
+      parentName: minion-model(Clone)
+      position: {x: -0.1508543, y: -0.23429134, z: 0.44381607}
+      rotation: {x: 0.9881384, y: 0.12779567, z: 0.07550863, w: 0.03936084}
+      scale: {x: 2.118378, y: 2.1183798, z: 2.1183777}
+    - name: Torus.002
+      parentName: minion-model(Clone)
+      position: {x: -0.15188132, y: -0.23863009, z: -0.44435465}
+      rotation: {x: 0.9847596, y: 0.16379231, z: -0.05524962, w: -0.0191835}
+      scale: {x: 2.1183777, y: 2.1183798, z: 2.118378}
+    - name: Torus.003
+      parentName: minion-model(Clone)
+      position: {x: 0.17728499, y: -0.23943542, z: 0.44685343}
+      rotation: {x: 0.99135596, y: 0.07324528, z: -0.108810686, w: 0.0029475028}
+      scale: {x: 2.118378, y: 2.1183798, z: 2.1183777}
+    - name: Torus.004
+      parentName: minion-model(Clone)
+      position: {x: 0.16594215, y: -0.24905276, z: -0.45354667}
+      rotation: {x: 0.99556905, y: 0.014771327, z: 0.090897515, w: 0.019020317}
+      scale: {x: 2.118378, y: 2.1183798, z: 2.118378}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
