@@ -59,6 +59,13 @@ public class RobotAI : MonoBehaviour {
 	}
 
 	[Task]
+	public void SetTargetDestination() {
+		destination = target;
+		agent.SetDestination(destination);
+		Task.current.Succeed();
+	}
+
+	[Task]
 	public void MoveToDestination() {
 		if (Task.isInspected) {
 			Task.current.debugInfo = String.Format("t={0:0.00}", Time.time);
@@ -73,6 +80,14 @@ public class RobotAI : MonoBehaviour {
 	public void TargetPlayer() {
 		target = player.transform.position;
 		Task.current.Succeed();
+	}
+
+	[Task]
+	public bool Turn(float angle) {
+		var p = this.transform.position + Quaternion.AngleAxis(angle, Vector3.up) * this.transform.forward;
+		this.target = p;
+		this.target.y = this.transform.position.y;
+		return true;
 	}
 
 	[Task]
@@ -119,17 +134,6 @@ public class RobotAI : MonoBehaviour {
 	}
 
 	[Task]
-	public bool IsHealthLessThan(float health) {
-		return this.health < health;
-	}
-
-	[Task]
-	public bool InDanger(float minimumDistance) {
-		Vector3 playerDistance = player.transform.position - this.transform.position;
-		return (playerDistance.magnitude < minimumDistance);
-	}
-
-	[Task]
 	public void TakeCover() {
 		Vector3 awayFromPlayer = this.transform.position - player.transform.position;
 		destination = this.transform.position + awayFromPlayer * 2;
@@ -143,5 +147,22 @@ public class RobotAI : MonoBehaviour {
 		Destroy(healthBar.gameObject);
 		Destroy(this.gameObject);
 		return true;
+	}
+
+	[Task]
+	public bool ShotLineUp() {
+		Vector3 distance = target - this.transform.position;
+		return distance.magnitude < shotRange && Vector3.Angle(this.transform.forward, distance) < 5.0f;
+	} 
+
+	[Task]
+	public bool IsHealthLessThan(float health) {
+		return this.health < health;
+	}
+
+	[Task]
+	public bool InDanger(float minimumDistance) {
+		Vector3 playerDistance = player.transform.position - this.transform.position;
+		return (playerDistance.magnitude < minimumDistance);
 	}
 }

@@ -122,7 +122,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400004, guid: f522d7a6ae22b4349bb8a2aa6cfb6bff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 54.7
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f522d7a6ae22b4349bb8a2aa6cfb6bff, type: 3}
       propertyPath: m_LocalPosition.y
@@ -130,7 +130,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f522d7a6ae22b4349bb8a2aa6cfb6bff, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 37.6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f522d7a6ae22b4349bb8a2aa6cfb6bff, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1743,7 +1743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scripts:
-  - {fileID: 4900000, guid: 6850e62181838f842a3dedda1d94d0f4, type: 3}
+  - {fileID: 4900000, guid: 017d8006ed5542c8a672f119f317b5b6, type: 3}
   autoReset: 1
   tickOn: 0
   sourceInfos:
@@ -1759,7 +1759,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1455764653}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 55.1, y: 0.108, z: 8.9524}
+  m_LocalPosition: {x: 60, y: 0.108, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 157950748}
@@ -1782,11 +1782,11 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -334000983
   m_Radius: 4
-  m_Speed: 20
-  m_Acceleration: 8
+  m_Speed: 10
+  m_Acceleration: 10
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 3
+  m_StoppingDistance: 20
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
